@@ -1,0 +1,26 @@
+{
+  "name": "google-sheet-api-full-text-search",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "googleapis": "^92.0.0",
+    "papaparse": "^5.3.1"
+  },
+"devDependencies": {
+"nodemon": "^2.0.15"
+},
+  "keywords": [],
+  "author": "Khandakar Shakib",
+  "license": "ISC"
+}
