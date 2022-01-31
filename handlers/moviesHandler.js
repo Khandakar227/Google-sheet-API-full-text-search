@@ -26,7 +26,3 @@ const handler = (req, res, next) => {
 }
 
 export default handler;
-
-// `Where B contains '${param.date}' `
-// order by B ${param?.sortby !== "asc" ? "desc " : ""}
-// `Select A, B, C Where LOWER(A) contains LOWER('${s}') or LOWER(C) contains LOWER('${s}') `

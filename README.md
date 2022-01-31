@@ -1,6 +1,6 @@
 # Example of A full-text search query using google sheets api with express js
 
-<div style="text-align:center;">
+<div style="text-align:center;display:flex;justify-content:center;">
 <img src="./resource&docs/front_image.png" alt="Google sheet API + Express JS" />
 </div>
 
@@ -55,6 +55,7 @@ A server will start running in on port 8080
 
 4. Go to https://localhost:8080/movies?search=**keyword** replace keyword with any word you like.
 
+5. check all the files. especially ``` moviesHandler.js ```.
 
 ## 🚀 Project Structure
 
@@ -97,3 +98,6 @@ Don't forget to rename and refactor all the js files you need for typescript ( *
 3. It does not support relationships.
 
 4. It is non ACID Compliant.
+
+### References
+1. [Query language reference](https://developers.google.com/chart/interactive/docs/querylanguage).
