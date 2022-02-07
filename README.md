@@ -1,7 +1,7 @@
 # Example of A full-text search query using google sheets api with express js
 
 <div style="text-align:center;display:flex;justify-content:center;">
-<img src="./resource&docs/front_image.png" alt="Google sheet API + Express JS" />
+<img src="./docs/front_image.png" alt="Google sheet API + Express JS" />
 </div>
 
 ## Overview
@@ -27,7 +27,7 @@ PRIVATE_KEY =  **YOUR COPIED private_key**
 ### Step: 2: Create a spreadsheet in google sheets
 1. Go to [https://docs.google.com/spreadsheets](https://docs.google.com/spreadsheets).
 2. Create a blank sheet.
-3. Import [the **IMDB bengali movies.csv** from resource&docs](./resource&docs/IMDB bengali movies.csv) in your newly created blank sheet or just bring your own data.
+3. Import [the **IMDB bengali movies.csv** from docs](./docs/IMDB bengali movies.csv) in your newly created blank sheet or just bring your own data.
 4. Click on **Share**, Change get link's privacy to **Anyone with link** (Make sure it's selected as Viewer). If you need the sheet to be restricted then you would require an OAuth 2.0 credentials for authorization. That is for another time.
 5. Copy the **Spreadsheet ID** and **sheet ID** from the url, paste the spreadsheet ID in .env file.
 
@@ -39,7 +39,7 @@ PRIVATE_KEY =  **YOUR COPIED private_key**
     ```
 
 
-    ![Google spreadsheet link](./resource&docs/url.png)
+    ![Google spreadsheet link](./docs/url.png)
 
 <br/>
 
