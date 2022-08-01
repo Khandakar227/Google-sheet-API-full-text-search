@@ -8,7 +8,7 @@
 This is an example of how you can implement google sheets API to build your Full text search API in node js using Express. 
 
 ### Step 1: Authenticating your google sheet API
-[By following this this docs](./resource%26docs/README.md) 
+[By following this this docs](https://github.com/Khandakar227/Google-sheet-API-full-text-search/tree/main/docs#readme) 
 setup your google sheets from google cloud console.
 Then download your generated api credentials (which is just a JSON file with authentication credentials) copy ***private_key*** and ***client_email*** value and paste them to a .env file at the root of your directory.
 
